@@ -110,6 +110,7 @@
 
     <Button
         android:text="Registrar"
+        android:onClick="llamarSegundoActivity"
         android:background="@color/colorPrimaryDark"
         android:textColor="#fff"
         android:layout_width="wrap_content"

@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SegundoActivity"></activity>
+        //aparecera una flecha siempre y cuando definamos cun padre
+        <activity
+            android:name=".SegundoActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
